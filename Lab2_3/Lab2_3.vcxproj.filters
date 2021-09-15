@@ -32,5 +32,8 @@
     <ClInclude Include="obchee.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="voditel.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
