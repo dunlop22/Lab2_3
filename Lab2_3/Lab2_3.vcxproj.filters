@@ -23,5 +23,8 @@
     <ClInclude Include="koleso.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="motor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
