@@ -1,4 +1,5 @@
 #pragma once
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 using namespace std;
 
@@ -19,12 +20,14 @@ voditel new_voditel(double age, double stag, char name[20], char pol[20], char c
     strcpy(voditel_create.name, name);
     strcpy(voditel_create.pol, pol);
     voditel_create.stag = stag;
+    return voditel_create;
 }
 
 void prosmotr_voditel(voditel* vod)
 {
     if (vod->age >= 0)
     {
+        cout << "\n\nÈÍÔÎÐÌÀÖÈß Î ÂÎÄÈÒÅËÅ";
         cout << "\nÔÈÎ: " << vod->name;
         cout << "\nÂîçðàñò: " << vod->age;
         cout << "\nÏîë: " << vod->pol;

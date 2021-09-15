@@ -28,7 +28,8 @@ void prosmotr_korobka_peredach(korobka_peredach* korobka_peredach1)
 	}
 }
 
-void korobka_peredach_peredacha_plus(korobka_peredach* korobka_peredach1, double peredacha_plus)
+void korobka_peredach_peredacha_plus(korobka_peredach *korobka_peredach1, double peredacha_plus)
 {
 	korobka_peredach1->kolvo_peredach = korobka_peredach1->kolvo_peredach + peredacha_plus;
+	//return *korobka_peredach1;
 }

@@ -1,5 +1,5 @@
 #pragma once
-#pragma once
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 using namespace std;
 
@@ -38,7 +38,8 @@ void prosmotr_koleso(koleso* koleso_1)
 	}
 }
 
-void koleso_diamter_plus(koleso* koleso1, double diametr_plus)
+koleso koleso_diamter(koleso* koleso1, double diametr)
 {
-	koleso1->diametr = koleso1->diametr + diametr_plus;
+	koleso1->diametr = diametr;
+	return *koleso1;
 }
